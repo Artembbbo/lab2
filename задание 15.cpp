@@ -4,7 +4,7 @@ bool is_right(int&);
 
 int main()
 {
-    std::cout << "enter a and b\n";
+    std::cout << "enter a and b" <<std::endl;
     int a = 0;
     int b = 0;
     std::cin >> a >> b;
@@ -36,4 +36,5 @@ bool is_right(int& n) {
     }
     return true;
 }
+
 
